@@ -1,2 +1,5 @@
-# SQL_Fundamentals
-Book SQL Fundamentals
+# SQL Fundamentals 👽🤖👩🏻‍💻🤯🧠🎲
+## Book SQL Fundamentals
+### 💥Chapter covered in the book💥
+- Introduction
+- [Module 01 - Getting Started]()
