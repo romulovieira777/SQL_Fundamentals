@@ -1,0 +1,9 @@
+GitHub
+https://github.com/thomasnield/oreilly_sql_fundamentals_for_data?tab=readme-ov-file
+https://github.com/thomasnield/oreilly_sql_fundamentals_for_data
+
+SQLiteStudio
+https://sqlitestudio.pl/
+
+SQlLite Online
+https://sqliteonline.com/
