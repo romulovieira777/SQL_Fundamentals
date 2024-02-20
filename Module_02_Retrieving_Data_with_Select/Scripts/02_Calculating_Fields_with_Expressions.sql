@@ -1,0 +1,42 @@
+-- This is a comment
+/*
+This is a 
+multiline comment
+*/
+
+
+SELECT
+	*
+FROM
+	PRODUCT;
+
+
+SELECT
+	PRODUCT_ID
+  , DESCRIPTION
+  , PRICE
+  , PRICE * 1.07 AS TAXED_PRICE
+FROM
+	PRODUCT;
+
+
+SELECT
+	PRODUCT_ID
+  , DESCRIPTION
+  , PRICE
+  , ROUND(PRICE * 1.07, 2) AS TAXED_PRICE
+FROM
+	PRODUCT;
+
+
+SELECT
+	*
+FROM
+	CUSTOMER;
+
+
+SELECT
+	NAME
+  , STREET_ADDRESS || ' ' || CITY || ', ' || STATE || ' ' || ZIP AS SHIP_ADDRESS
+FROM
+    CUSTOMER;
