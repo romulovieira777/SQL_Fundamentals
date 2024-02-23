@@ -1,0 +1,82 @@
+SELECT
+    *
+FROM
+    STATION_DATA;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    year = 2010;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    year != 2010;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    year <> 2010;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    year BETWEEN 2005 AND 2010;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    year >= 2005 AND year <= 2010;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    year > 2005 AND year < 2010;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    MONTH = 3
+OR
+    MONTH = 6
+OR
+    MONTH = 9
+OR
+    MONTH = 12;
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    MONTH IN (3, 6, 9, 12);
+
+
+SELECT
+    *
+FROM
+    STATION_DATA
+WHERE
+    MONTH NOT IN (3, 6, 9, 12);
